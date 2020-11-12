@@ -1,6 +1,6 @@
 <template>
-    <div>
-        
+    <div class="container">
+        <h1>Add Person</h1>
     </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
     name:"AddPerson",
     data: function(){
         return{
-            
+
         }
     }
 }

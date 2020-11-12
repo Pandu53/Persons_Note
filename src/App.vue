@@ -1,18 +1,24 @@
 <template>
-  <div id="MainApp">
-    <NavigationBar />
+  <div id="app">
+    <div id="nav">
+      <NavigationBar ></NavigationBar>
+      <router-view class="container" />
+    </div>
   </div>
 </template>
 
+
 <script>
 import NavigationBar from "./components/NavigationBar.vue"
-
 export default {
-  name: 'MainApp',
+  name:"MainApp",
+  data: function(){
+    return{
+      
+    }
+  },
   components: {
     NavigationBar
   }
 }
 </script>
-
-
