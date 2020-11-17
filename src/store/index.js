@@ -5,7 +5,28 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
     state: {
-        PersonsNotes: []
+        PersonsNotes: [
+            {
+            name:"Hans",
+            sirname:"Peter",
+            age:"32",
+            relationshitatus:"",
+            partnerName:"",
+            location:"",
+            job:"",
+            mainHobby:""
+        },
+        {
+            name:"Petra",
+            sirname:"Hansen",
+            age:"32",
+            relationshitatus:"",
+            partnerName:"",
+            location:"",
+            job:"",
+            mainHobby:""
+        }
+    ]
     },
     mutations: {
         
