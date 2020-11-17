@@ -2,15 +2,15 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 //import Views
-import PersonsList from '../views/PersonsList.vue'
-import AddPerson from '../views/AddPerson.vue'
+import PersonsList from '../views/PersonsList.vue';
+import AddPerson from '../views/AddPerson.vue';
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'PersonsList',
+    name: 'Home',
     component: PersonsList
   },
   {

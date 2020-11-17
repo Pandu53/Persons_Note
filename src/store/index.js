@@ -12,7 +12,7 @@ export default new Vuex.Store({
             age:"32",
             relationshitatus:"",
             partnerName:"",
-            location:"",
+            location:"Berlin",
             job:"",
             mainHobby:""
         },
@@ -33,6 +33,11 @@ export default new Vuex.Store({
     },
     actions: {
         
+    },
+    getters:{
+        notes (state){
+            return state.PersonsNotes;
+        }
     }
 }
 )
