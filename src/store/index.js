@@ -7,6 +7,7 @@ export default new Vuex.Store({
     state: {
         PersonsNotes: [
             {
+            id:0,
             name:"Hans",
             sirname:"Peter",
             age:"32",
@@ -17,6 +18,7 @@ export default new Vuex.Store({
             mainHobby:""
         },
         {
+            id:1,
             name:"Petra",
             sirname:"Hansen",
             age:"32",
