@@ -15,7 +15,8 @@ export default new Vuex.Store({
             partnerName:"",
             location:"Berlin",
             job:"",
-            mainHobby:""
+            mainHobby:"",
+            birthdate:""
         },
         {
             id:1,
@@ -26,7 +27,8 @@ export default new Vuex.Store({
             partnerName:"",
             location:"",
             job:"",
-            mainHobby:""
+            mainHobby:"",
+            birthdate:""
         }
     ]
     },
