@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+-root {
+
+/* CSS HEX */
+--primary: #326d9aff;
+--background: #d3d4d9ff;
+--warn: #db2b39ff;
+--dark-background: #151515ff;
+--secondary: #65a0cdff;
+
+/* CSS HSL */
+--honolulu-blue: hsla(206, 51%, 40%, 1);
+--light-gray: hsla(230, 7%, 84%, 1);
+--rose-madder: hsla(355, 71%, 51%, 1);
+--eerie-black: hsla(0, 0%, 8%, 1);
+--iceberg: hsla(206, 51%, 60%, 1);
+}
+
+/* Import Fonts */
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    background-color: #d3d4d9ff ;
+    margin: 0;
+}
